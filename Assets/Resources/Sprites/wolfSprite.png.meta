@@ -1,0 +1,1767 @@
+fileFormatVersion: 2
+guid: 3e91db63e09c4db4080addd0d631c468
+timeCreated: 1506993627
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: wolfSprite_0
+    21300002: wolfSprite_1
+    21300004: wolfSprite_2
+    21300006: wolfSprite_3
+    21300008: wolfSprite_4
+    21300010: wolfSprite_5
+    21300012: wolfSprite_6
+    21300014: wolfSprite_7
+    21300016: wolfSprite_8
+    21300018: wolfSprite_9
+    21300020: wolfSprite_10
+    21300022: wolfSprite_11
+    21300024: wolfSprite_12
+    21300026: wolfSprite_13
+    21300028: wolfSprite_14
+    21300030: wolfSprite_15
+    21300032: wolfSprite_16
+    21300034: wolfSprite_17
+    21300036: wolfSprite_18
+    21300038: wolfSprite_19
+    21300040: wolfSprite_20
+    21300042: wolfSprite_21
+    21300044: wolfSprite_22
+    21300046: wolfSprite_23
+    21300048: wolfSprite_24
+    21300050: wolfSprite_25
+    21300052: wolfSprite_26
+    21300054: wolfSprite_27
+    21300056: wolfSprite_28
+    21300058: wolfSprite_29
+    21300060: wolfSprite_30
+    21300062: wolfSprite_31
+    21300064: wolfSprite_32
+    21300066: wolfSprite_33
+    21300068: wolfSprite_34
+    21300070: wolfSprite_35
+    21300072: wolfSprite_36
+    21300074: wolfSprite_37
+    21300076: wolfSprite_38
+    21300078: wolfSprite_39
+    21300080: wolfSprite_40
+    21300082: wolfSprite_41
+    21300084: wolfSprite_42
+    21300086: wolfSprite_43
+    21300088: wolfSprite_44
+    21300090: wolfSprite_45
+    21300092: wolfSprite_46
+    21300094: wolfSprite_47
+    21300096: wolfSprite_48
+    21300098: wolfSprite_49
+    21300100: wolfSprite_50
+    21300102: wolfSprite_51
+    21300104: wolfSprite_52
+    21300106: wolfSprite_53
+    21300108: wolfSprite_54
+    21300110: wolfSprite_55
+    21300112: wolfSprite_56
+    21300114: wolfSprite_57
+    21300116: wolfSprite_58
+    21300118: wolfSprite_59
+    21300120: wolfSprite_60
+    21300122: wolfSprite_61
+    21300124: wolfSprite_62
+    21300126: wolfSprite_63
+    21300128: wolfSprite_64
+    21300130: wolfSprite_65
+    21300132: wolfSprite_66
+    21300134: wolfSprite_67
+    21300136: wolfSprite_68
+    21300138: wolfSprite_69
+    21300140: wolfSprite_70
+    21300142: wolfSprite_71
+    21300144: wolfSprite_72
+    21300146: wolfSprite_73
+    21300148: wolfSprite_74
+    21300150: wolfSprite_75
+    21300152: wolfSprite_76
+    21300154: wolfSprite_77
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wolfSprite_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 321
+        width: 23
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 321
+        width: 23
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 321
+        width: 23
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_3
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 321
+        width: 23
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_4
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 321
+        width: 23
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_5
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 324
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_6
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 352
+        width: 63
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_7
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 352
+        width: 63
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_8
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 352
+        width: 61
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_9
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 352
+        width: 60
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 257
+        width: 23
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_11
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 257
+        width: 23
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_12
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 258
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_13
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 197
+        width: 23
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_14
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 260
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_15
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 260
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_16
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 260
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_17
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 260
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_18
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 288
+        width: 63
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_20
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 224
+        width: 64
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_21
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 288
+        width: 61
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_22
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 63
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_23
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_24
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 224
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_25
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 256
+        width: 63
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_26
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 192
+        width: 23
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_27
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 197
+        width: 23
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_28
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 192
+        width: 23
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_29
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 194
+        width: 23
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_30
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 195
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_31
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 194
+        width: 23
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_32
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 194
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_33
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 63
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_34
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 224
+        width: 60
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_35
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 224
+        width: 63
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_36
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 63
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_37
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 192
+        width: 60
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_38
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 191
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_39
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 133
+        width: 23
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_40
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 131
+        width: 23
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_41
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 128
+        width: 23
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_42
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 128
+        width: 23
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_43
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 130
+        width: 23
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_44
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 131
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_45
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 130
+        width: 23
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_46
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 129
+        width: 23
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_47
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 132
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_48
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 131
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_49
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 63
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_50
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 160
+        width: 63
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_51
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 160
+        width: 61
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_52
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 160
+        width: 60
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_53
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 65
+        width: 23
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_54
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 65
+        width: 23
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_55
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 65
+        width: 23
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_56
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 65
+        width: 23
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_57
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 65
+        width: 23
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_58
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 68
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_59
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 68
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_60
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 67
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_61
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 68
+        width: 23
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_62
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 68
+        width: 23
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_63
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 63
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_64
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_65
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 32
+        width: 64
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_66
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 96
+        width: 61
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_67
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 63
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_68
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_69
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 32
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_70
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 63
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_71
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 63
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_72
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 32
+        width: 60
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_73
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 32
+        width: 63
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_74
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 63
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_75
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 0
+        width: 60
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_76
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprite_77
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 0
+        width: 63
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline:
+    - - {x: 63, y: -173}
+      - {x: 44, y: -162}
+      - {x: 26, y: -159}
+      - {x: 4, y: -159}
+      - {x: -2, y: -164}
+      - {x: -2, y: -181}
+      - {x: 5, y: -192}
+      - {x: 63, y: -192}
+      - {x: 65, y: -191}
+      - {x: 65, y: -174}
+    - - {x: 198, y: -192}
+      - {x: 320, y: -192}
+      - {x: 320, y: -132}
+      - {x: 298, y: -131}
+      - {x: 292, y: -131}
+      - {x: 306, y: -131}
+      - {x: 310, y: -128}
+      - {x: 320, y: -120}
+      - {x: 320, y: -109}
+      - {x: 319, y: -105}
+      - {x: 305, y: -98}
+      - {x: 281, y: -95}
+      - {x: 264, y: -92}
+      - {x: 240, y: -101}
+      - {x: 234, y: -99}
+      - {x: 228, y: -99}
+      - {x: 216, y: -98}
+      - {x: 211, y: -98}
+      - {x: 216, y: -98}
+      - {x: 218, y: -96}
+      - {x: 220, y: -91}
+      - {x: 228, y: -98}
+      - {x: 240, y: -98}
+      - {x: 254, y: -95}
+      - {x: 268, y: -86}
+      - {x: 225, y: -53}
+      - {x: 201, y: -53}
+      - {x: 192, y: -59}
+      - {x: 200, y: -95}
+      - {x: 177, y: -99}
+      - {x: 171, y: -98}
+      - {x: 165, y: -98}
+      - {x: 158, y: -99}
+      - {x: 163, y: -98}
+      - {x: 175, y: -98}
+      - {x: 189, y: -94}
+      - {x: 196, y: -85}
+      - {x: 195, y: -78}
+      - {x: 158, y: -53}
+      - {x: 136, y: -53}
+      - {x: 122, y: -58}
+      - {x: 137, y: -87}
+      - {x: 113, y: -100}
+      - {x: 100, y: -98}
+      - {x: 83, y: -98}
+      - {x: 87, y: -98}
+      - {x: 89, y: -96}
+      - {x: 92, y: -92}
+      - {x: 99, y: -98}
+      - {x: 111, y: -98}
+      - {x: 130, y: -86}
+      - {x: 130, y: -81}
+      - {x: 109, y: -66}
+      - {x: 81, y: -58}
+      - {x: 76, y: -57}
+      - {x: 60, y: -67}
+      - {x: 66, y: -78}
+      - {x: 78, y: -87}
+      - {x: 47, y: -99}
+      - {x: 37, y: -99}
+      - {x: 24, y: -98}
+      - {x: 19, y: -98}
+      - {x: 22, y: -98}
+      - {x: 24, y: -97}
+      - {x: 34, y: -98}
+      - {x: 47, y: -98}
+      - {x: 54, y: -91}
+      - {x: 61, y: -87}
+      - {x: 66, y: -79}
+      - {x: 64, y: -76}
+      - {x: 44, y: -66}
+      - {x: 7, y: -60}
+      - {x: -2, y: -67}
+      - {x: -2, y: -182}
+      - {x: 40, y: -192}
+      - {x: 188, y: -192}
+      - {x: 185, y: -181}
+      - {x: 194, y: -182}
+    - - {x: -315, y: -63}
+      - {x: -317, y: -75}
+      - {x: -317, y: -129}
+      - {x: -290, y: -129}
+      - {x: -290, y: -81}
+      - {x: -301, y: -63}
+    - - {x: -277, y: -64}
+      - {x: -285, y: -81}
+      - {x: -285, y: -128}
+      - {x: -283, y: -129}
+      - {x: -258, y: -129}
+      - {x: -258, y: -82}
+      - {x: -267, y: -64}
+    - - {x: -234, y: -72}
+      - {x: -240, y: -67}
+      - {x: -247, y: -67}
+      - {x: -253, y: -76}
+      - {x: -253, y: -127}
+      - {x: -251, y: -129}
+      - {x: -226, y: -129}
+      - {x: -226, y: -84}
+    - - {x: -207, y: 2}
+      - {x: -221, y: -12}
+      - {x: -221, y: -129}
+      - {x: -194, y: -129}
+      - {x: -194, y: -2}
+      - {x: -199, y: 2}
+    - - {x: -178, y: -68}
+      - {x: -183, y: -70}
+      - {x: -189, y: -87}
+      - {x: -189, y: -129}
+      - {x: -162, y: -129}
+      - {x: -162, y: -82}
+      - {x: -171, y: -68}
+    - - {x: -84, y: -76}
+      - {x: -93, y: -80}
+      - {x: -93, y: -127}
+      - {x: -66, y: -127}
+      - {x: -66, y: -86}
+      - {x: -73, y: -76}
+    - - {x: -153, y: -68}
+      - {x: -157, y: -81}
+      - {x: -157, y: -126}
+      - {x: -131, y: -126}
+      - {x: -130, y: -124}
+      - {x: -130, y: -81}
+      - {x: -136, y: -68}
+    - - {x: -125, y: -98}
+      - {x: -125, y: -123}
+      - {x: -123, y: -126}
+      - {x: -98, y: -126}
+      - {x: -98, y: -87}
+      - {x: -100, y: -73}
+      - {x: -115, y: -73}
+      - {x: -124, y: -91}
+    - - {x: -51, y: -64}
+      - {x: -61, y: -72}
+      - {x: -61, y: -126}
+      - {x: -34, y: -126}
+      - {x: -34, y: -70}
+      - {x: -39, y: -64}
+    - - {x: -19, y: -67}
+      - {x: -29, y: -75}
+      - {x: -29, y: -124}
+      - {x: -27, y: -126}
+      - {x: -3, y: -126}
+      - {x: -2, y: -122}
+      - {x: -2, y: -81}
+      - {x: -8, y: -67}
+    - - {x: -253, y: 66}
+      - {x: -253, y: -66}
+      - {x: -226, y: -66}
+      - {x: -226, y: 66}
+    - - {x: -86, y: -3}
+      - {x: -93, y: -7}
+      - {x: -93, y: -65}
+      - {x: -69, y: -65}
+      - {x: -66, y: -64}
+      - {x: -66, y: -17}
+      - {x: -72, y: -3}
+    - - {x: -173, y: 1}
+      - {x: -181, y: 1}
+      - {x: -189, y: -14}
+      - {x: -189, y: -63}
+      - {x: -184, y: -64}
+      - {x: -166, y: -64}
+      - {x: -162, y: -62}
+      - {x: -162, y: -16}
+    - - {x: -116, y: -5}
+      - {x: -125, y: -20}
+      - {x: -125, y: -63}
+      - {x: -122, y: -64}
+      - {x: -100, y: -64}
+      - {x: -98, y: -63}
+      - {x: -98, y: -20}
+      - {x: -108, y: -5}
+    - - {x: -258, y: -6}
+      - {x: -266, y: 0}
+      - {x: -279, y: 0}
+      - {x: -285, y: -11}
+      - {x: -285, y: -62}
+      - {x: -282, y: -63}
+      - {x: -258, y: -63}
+    - - {x: -157, y: -61}
+      - {x: -154, y: -63}
+      - {x: -130, y: -63}
+      - {x: -130, y: -25}
+      - {x: -133, y: -11}
+      - {x: -148, y: -11}
+      - {x: -157, y: -26}
+    - - {x: -25, y: -9}
+      - {x: -29, y: -12}
+      - {x: -29, y: -63}
+      - {x: -3, y: -63}
+      - {x: -2, y: -62}
+      - {x: -2, y: -15}
+      - {x: -12, y: -9}
+    - - {x: -51, y: -6}
+      - {x: -61, y: -15}
+      - {x: -61, y: -62}
+      - {x: -35, y: -62}
+      - {x: -34, y: -60}
+      - {x: -34, y: -13}
+      - {x: -38, y: -6}
+    - - {x: -307, y: 1}
+      - {x: -317, y: -17}
+      - {x: -317, y: -61}
+      - {x: -291, y: -61}
+      - {x: -290, y: -60}
+      - {x: -290, y: -12}
+      - {x: -296, y: 1}
+    - - {x: 87, y: -2}
+      - {x: 70, y: -4}
+      - {x: 25, y: -2}
+      - {x: 20, y: -2}
+      - {x: 29, y: -2}
+      - {x: 31, y: 0}
+      - {x: 31, y: 3}
+      - {x: 40, y: -3}
+      - {x: 54, y: -2}
+      - {x: 93, y: -2}
+      - {x: 95, y: 0}
+      - {x: 95, y: 3}
+      - {x: 92, y: 6}
+      - {x: 106, y: -2}
+      - {x: 113, y: -2}
+      - {x: 134, y: -7}
+      - {x: 177, y: -6}
+      - {x: 195, y: -15}
+      - {x: 320, y: -9}
+      - {x: 320, y: 119}
+      - {x: 319, y: 121}
+      - {x: 270, y: 139}
+      - {x: 208, y: 139}
+      - {x: 188, y: 106}
+      - {x: 195, y: 96}
+      - {x: 209, y: 94}
+      - {x: 221, y: 94}
+      - {x: 223, y: 96}
+      - {x: 223, y: 99}
+      - {x: 232, y: 94}
+      - {x: 214, y: 93}
+      - {x: 209, y: 91}
+      - {x: 195, y: 86}
+      - {x: 183, y: 106}
+      - {x: 201, y: 135}
+      - {x: 187, y: 139}
+      - {x: 167, y: 139}
+      - {x: 147, y: 127}
+      - {x: 123, y: 106}
+      - {x: 132, y: 99}
+      - {x: 145, y: 94}
+      - {x: 157, y: 94}
+      - {x: 161, y: 95}
+      - {x: 158, y: 92}
+      - {x: 155, y: 94}
+      - {x: 149, y: 94}
+      - {x: 143, y: 93}
+      - {x: 114, y: 106}
+      - {x: 127, y: 114}
+      - {x: 143, y: 139}
+      - {x: 24, y: 139}
+      - {x: -2, y: 126}
+      - {x: -2, y: 111}
+      - {x: 2, y: 105}
+      - {x: 17, y: 94}
+      - {x: 29, y: 94}
+      - {x: 31, y: 96}
+      - {x: 31, y: 99}
+      - {x: 28, y: 102}
+      - {x: 39, y: 94}
+      - {x: 13, y: 94}
+      - {x: -2, y: 84}
+      - {x: -2, y: 42}
+      - {x: 0, y: 41}
+      - {x: 17, y: 32}
+      - {x: 30, y: 30}
+      - {x: 34, y: 37}
+      - {x: 35, y: 34}
+      - {x: 38, y: 30}
+      - {x: 44, y: 30}
+      - {x: 46, y: 32}
+      - {x: 46, y: 35}
+      - {x: 52, y: 34}
+      - {x: 57, y: 34}
+      - {x: 60, y: 37}
+      - {x: 67, y: 52}
+      - {x: 50, y: 72}
+      - {x: 80, y: 62}
+      - {x: 87, y: 62}
+      - {x: 91, y: 63}
+      - {x: 93, y: 65}
+      - {x: 93, y: 68}
+      - {x: 101, y: 62}
+      - {x: 107, y: 62}
+      - {x: 109, y: 64}
+      - {x: 109, y: 67}
+      - {x: 109, y: 65}
+      - {x: 110, y: 61}
+      - {x: 81, y: 61}
+      - {x: 68, y: 53}
+      - {x: 62, y: 37}
+      - {x: 69, y: 33}
+      - {x: 74, y: 35}
+      - {x: 86, y: 30}
+      - {x: 105, y: 30}
+      - {x: 107, y: 32}
+      - {x: 108, y: 30}
+      - {x: 83, y: 30}
+      - {x: 72, y: 23}
+      - {x: 54, y: 33}
+      - {x: 49, y: 33}
+      - {x: 44, y: 30}
+      - {x: 39, y: 30}
+      - {x: 20, y: 29}
+      - {x: -2, y: 27}
+      - {x: -2, y: -34}
+      - {x: 121, y: -34}
+      - {x: 133, y: -16}
+      - {x: 114, y: -2}
+    - - {x: 143, y: -5}
+      - {x: 137, y: -6}
+      - {x: 128, y: -18}
+      - {x: 128, y: -34}
+      - {x: 193, y: -34}
+      - {x: 193, y: -18}
+      - {x: 178, y: -5}
+    - - {x: 246, y: -9}
+      - {x: 207, y: -9}
+      - {x: 197, y: -10}
+      - {x: 193, y: -16}
+      - {x: 193, y: -32}
+      - {x: 195, y: -34}
+      - {x: 253, y: -34}
+      - {x: 257, y: -31}
+      - {x: 257, y: -21}
+    - - {x: -303, y: 66}
+      - {x: -305, y: 66}
+      - {x: -307, y: 65}
+      - {x: -307, y: 60}
+      - {x: -317, y: 46}
+      - {x: -317, y: -1}
+      - {x: -316, y: -2}
+      - {x: -302, y: -2}
+      - {x: -290, y: 4}
+      - {x: -290, y: 39}
+      - {x: -293, y: 59}
+    - - {x: -150, y: 60}
+      - {x: -157, y: 50}
+      - {x: -157, y: 1}
+      - {x: -155, y: 0}
+      - {x: -144, y: 0}
+      - {x: -130, y: 8}
+      - {x: -130, y: 54}
+      - {x: -140, y: 60}
+    - - {x: -87, y: 60}
+      - {x: -93, y: 47}
+      - {x: -93, y: 7}
+      - {x: -84, y: 0}
+      - {x: -67, y: 0}
+      - {x: -66, y: 1}
+      - {x: -66, y: 52}
+      - {x: -76, y: 60}
+    - - {x: -125, y: 1}
+      - {x: -109, y: 1}
+      - {x: -98, y: 4}
+      - {x: -98, y: 42}
+      - {x: -99, y: 47}
+      - {x: -105, y: 58}
+      - {x: -115, y: 58}
+      - {x: -125, y: 52}
+    - - {x: -59, y: 58}
+      - {x: -61, y: 51}
+      - {x: -61, y: 1}
+      - {x: -34, y: 1}
+      - {x: -34, y: 43}
+      - {x: -43, y: 58}
+    - - {x: -284, y: 124}
+      - {x: -285, y: 118}
+      - {x: -285, y: 3}
+      - {x: -258, y: 3}
+      - {x: -258, y: 124}
+    - - {x: -215, y: 115}
+      - {x: -219, y: 114}
+      - {x: -221, y: 111}
+      - {x: -221, y: 3}
+      - {x: -194, y: 3}
+      - {x: -194, y: 104}
+      - {x: -204, y: 115}
+    - - {x: -308, y: 129}
+      - {x: -317, y: 113}
+      - {x: -317, y: 63}
+      - {x: -290, y: 63}
+      - {x: -290, y: 113}
+      - {x: -293, y: 129}
+    - - {x: -246, y: 120}
+      - {x: -253, y: 116}
+      - {x: -253, y: 64}
+      - {x: -226, y: 64}
+      - {x: -226, y: 112}
+      - {x: -233, y: 120}
+    - - {x: -130, y: 108}
+      - {x: -137, y: 124}
+      - {x: -155, y: 124}
+      - {x: -157, y: 117}
+      - {x: -157, y: 66}
+      - {x: -134, y: 66}
+      - {x: -130, y: 70}
+    - - {x: -113, y: 68}
+      - {x: -110, y: 66}
+      - {x: -102, y: 66}
+      - {x: -98, y: 68}
+      - {x: -98, y: 105}
+      - {x: -105, y: 120}
+      - {x: -115, y: 120}
+      - {x: -125, y: 110}
+      - {x: -125, y: 67}
+      - {x: -121, y: 66}
+      - {x: -116, y: 66}
+      - {x: -114, y: 70}
+      - {x: -114, y: 73}
+      - {x: -114, y: 72}
+    - - {x: -76, y: 117}
+      - {x: -87, y: 117}
+      - {x: -93, y: 109}
+      - {x: -93, y: 66}
+      - {x: -66, y: 66}
+      - {x: -66, y: 102}
+      - {x: -67, y: 107}
+    - - {x: -34, y: 101}
+      - {x: -42, y: 110}
+      - {x: -55, y: 110}
+      - {x: -61, y: 99}
+      - {x: -61, y: 68}
+      - {x: -58, y: 66}
+      - {x: -34, y: 66}
+    - - {x: -309, y: 192}
+      - {x: -317, y: 177}
+      - {x: -317, y: 127}
+      - {x: -290, y: 127}
+      - {x: -290, y: 177}
+      - {x: -293, y: 192}
+    - - {x: -268, y: 190}
+      - {x: -278, y: 190}
+      - {x: -285, y: 179}
+      - {x: -285, y: 127}
+      - {x: -258, y: 127}
+      - {x: -258, y: 174}
+      - {x: -260, y: 186}
+    - - {x: -226, y: 127}
+      - {x: -226, y: 172}
+      - {x: -231, y: 186}
+      - {x: -237, y: 188}
+      - {x: -247, y: 188}
+      - {x: -253, y: 172}
+      - {x: -253, y: 130}
+      - {x: -250, y: 127}
+      - {x: -245, y: 127}
+      - {x: -242, y: 130}
+      - {x: -239, y: 127}
+    - - {x: -194, y: 127}
+      - {x: -194, y: 177}
+      - {x: -198, y: 189}
+      - {x: -214, y: 189}
+      - {x: -219, y: 178}
+      - {x: -221, y: 170}
+      - {x: -221, y: 130}
+      - {x: -218, y: 127}
+      - {x: -213, y: 127}
+      - {x: -210, y: 130}
+      - {x: -207, y: 127}
+    - - {x: -174, y: 191}
+      - {x: -182, y: 191}
+      - {x: -189, y: 172}
+      - {x: -189, y: 127}
+      - {x: -162, y: 127}
+      - {x: -162, y: 174}
+      - {x: -168, y: 187}
+    - - {x: -148, y: 188}
+      - {x: -157, y: 182}
+      - {x: -157, y: 130}
+      - {x: -130, y: 130}
+      - {x: -130, y: 172}
+      - {x: -138, y: 188}
+    - - {x: 3, y: 192}
+      - {x: -2, y: 189}
+      - {x: -2, y: 165}
+      - {x: 7, y: 158}
+      - {x: 129, y: 158}
+      - {x: 129, y: 181}
+      - {x: 123, y: 192}
+    - - {x: 163, y: 187}
+      - {x: 142, y: 187}
+      - {x: 127, y: 177}
+      - {x: 127, y: 165}
+      - {x: 135, y: 158}
+      - {x: 190, y: 158}
+      - {x: 192, y: 163}
+      - {x: 192, y: 173}
+      - {x: 186, y: 182}
+    - - {x: 197, y: 183}
+      - {x: 192, y: 169}
+      - {x: 192, y: 158}
+      - {x: 254, y: 158}
+      - {x: 256, y: 162}
+      - {x: 256, y: 173}
+      - {x: 253, y: 183}
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
