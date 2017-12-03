@@ -17,39 +17,36 @@ public class BowyerWatson : MonoBehaviour {
 	public List<triangle> triangles = new List<triangle>();
 	public bool hecho = false;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
 	void OnGUI() 
 	{
 		if (!hecho) {
-			Vector3 tl = new Vector3 (-10f, 10f, 0f);
-			Vector3 br = new Vector3 (10f, -10f, 0f);
-			List<triangle> list_ini = squareToTriangle (tl, br);
-			int iter = 0;
-			while(true){ //list_ini.Count>0
-				triangle tr = list_ini [0];
-				DrawTriangle(tr.v1,tr.v2, tr.v3, Color.white, 200000f); 
-				if (iter < 40) {
-					List<triangle> new_trs = splitTriangle (tr);
-					foreach (triangle trr in new_trs) {
-						list_ini.Add (trr);
+			foreach (Transform child in transform) {
+				//child is your child transform
+				BoxCollider boxC = child.GetComponent<BoxCollider>();
+				Bounds bs = boxC.bounds;
+				Vector3 tl = new Vector3 (bs.center.x-bs.extents.x, bs.center.y+bs.extents.y, 0f);
+				Vector3 br = new Vector3 (bs.center.x+bs.extents.x, bs.center.y-bs.extents.y, 0f);
+				List<triangle> list_ini = squareToTriangle (tl, br);
+				int iter = 0;
+				while (true) { //list_ini.Count>0
+					triangle tr = list_ini [0];
+					DrawTriangle (tr.v1, tr.v2, tr.v3, Color.white, 200000f); 
+					if (iter < 40) {
+						List<triangle> new_trs = splitTriangle (tr);
+						foreach (triangle trr in new_trs) {
+							list_ini.Add (trr);
+						}
+						iter++;
+					} else if (iter == 40) {
+						Debug.Log (list_ini.Count);
+						foreach (triangle t in list_ini) {
+							triangles.Add (t);
+						}
+						//triangles = list_ini;
+						break;
 					}
-					iter++;
-				} else if (iter == 40)
-				{
-					Debug.Log (list_ini.Count);
-					triangles = list_ini;
-					break;
+					list_ini.RemoveAt (0);
 				}
-				list_ini.RemoveAt(0);
 			}
 			Debug.Log (triangles.Count);
 			hecho = true;
@@ -63,10 +60,10 @@ public class BowyerWatson : MonoBehaviour {
 	{	// En la Z se almacena el costo.
 		public Dictionary<Vector3,List<Vector3>> connections = new Dictionary<Vector3,List<Vector3>>();
 	}
+
 	public bool pointInLine(Vector3 p1, Vector3 p2, Vector3 p3, float threshold)
 	{
 		float calc = distBetweenPoints (p1, p2) + distBetweenPoints (p1, p3) - distBetweenPoints (p2, p3);
-		//Debug.Log (calc);
 		bool cond1 = calc <= threshold;
 		return cond1;
 	}
@@ -95,7 +92,7 @@ public class BowyerWatson : MonoBehaviour {
 					}
 					if (found) 
 					{
-						Debug.Log ("encontrado");
+						//Debug.Log ("encontrado");
 						float peso = distBetweenPoints (t1.center, t2.center);
 						Vector3 aux = t2.center;
 						aux.z = peso;
@@ -233,7 +230,7 @@ public class BowyerWatson : MonoBehaviour {
 		LineRenderer lr = myLine.GetComponent<LineRenderer>();
 		lr.material = new Material(Shader.Find("Particles/Alpha Blended Premultiply"));
 		lr.SetColors(color, color);
-		lr.SetWidth(0.1f, 0.1f);
+		lr.SetWidth(0.05f, 0.05f);
 		lr.SetPosition(0, start);
 		lr.SetPosition(1, end);
 		lr.sortingLayerName = "Player";
