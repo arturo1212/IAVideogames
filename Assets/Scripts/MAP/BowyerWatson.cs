@@ -34,20 +34,27 @@ public class BowyerWatson : MonoBehaviour {
 			Vector3 br = new Vector3 (10f, -10f, 0f);
 			List<triangle> list_ini = squareToTriangle (tl, br);
 			int iter = 0;
-			while(list_ini.Count>0){
+			while(true){ //list_ini.Count>0
 				triangle tr = list_ini [0];
 				DrawTriangle(tr.v1,tr.v2, tr.v3, Color.white, 200000f); 
-				if (iter<40)
-				{
+				if (iter < 40) {
 					List<triangle> new_trs = splitTriangle (tr);
 					foreach (triangle trr in new_trs) {
 						list_ini.Add (trr);
 					}
 					iter++;
+				} else if (iter == 40)
+				{
+					Debug.Log (list_ini.Count);
+					triangles = list_ini;
+					break;
 				}
 				list_ini.RemoveAt(0);
 			}
+			Debug.Log (triangles.Count);
 			hecho = true;
+			graph gf = createGraph ();
+			Debug.Log (gf.connections.Count);
 		}
 
 	}
@@ -58,13 +65,16 @@ public class BowyerWatson : MonoBehaviour {
 	}
 	public bool pointInLine(Vector3 p1, Vector3 p2, Vector3 p3, float threshold)
 	{
-		bool cond1 = distBetweenPoints (p1, p2) + distBetweenPoints (p1, p3) - distBetweenPoints (p2, p3) <= threshold;
+		float calc = distBetweenPoints (p1, p2) + distBetweenPoints (p1, p3) - distBetweenPoints (p2, p3);
+		//Debug.Log (calc);
+		bool cond1 = calc <= threshold;
 		return cond1;
 	}
 
 	public graph createGraph()
 	{
 		graph grafo = new graph ();
+		Debug.Log (triangles.Count);
 		foreach (triangle t1 in triangles) 
 		{
 			foreach (triangle t2 in triangles) 
@@ -75,15 +85,17 @@ public class BowyerWatson : MonoBehaviour {
 					Vector3[] points = { t1.v1, t1.v2, t1.v3 };
 					foreach (Vector3 p in points) 
 					{
-						bool cond1 = pointInLine (p, t2.v1, t2.v3, 0.001f);
-						bool cond2 = pointInLine (p, t2.v2, t2.v3, 0.001f);
-						bool cond3 = pointInLine (p, t2.v1, t2.v2, 0.001f);
+						bool cond1 = pointInLine (p, t2.v1, t2.v3, 0.01f);
+						bool cond2 = pointInLine (p, t2.v2, t2.v3, 0.01f);
+						bool cond3 = pointInLine (p, t2.v1, t2.v2, 0.01f);
 						if (cond1 || cond2 || cond3) {
 							found = true;
+							break;
 						}
 					}
 					if (found) 
 					{
+						Debug.Log ("encontrado");
 						float peso = distBetweenPoints (t1.center, t2.center);
 						Vector3 aux = t2.center;
 						aux.z = peso;
